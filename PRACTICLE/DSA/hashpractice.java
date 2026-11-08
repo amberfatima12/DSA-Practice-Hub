@@ -1,6 +1,4 @@
 
-package PRACTICLE.DSA;
-
 public class hashpractice {
     public static class country{
     String name;
@@ -41,6 +39,8 @@ public int hash(Object key){
     // java will generate hash code for every code
     return (key.hashCode()&0x7FFFFFFF)%entries.length;
 }
+
+    
 // public Object get(Object key){
 //     return entries[hash(key)].value;
 // }
