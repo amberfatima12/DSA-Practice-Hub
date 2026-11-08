@@ -22,7 +22,6 @@ public class Node{
         return n*fact(n-1);
     }
     }
-// vcr chaho wala example
 public static   int print(int arr[], int n){
     if(arr.length==n){return 1;}
     System.out.println(arr[n]);
